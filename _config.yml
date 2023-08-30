@@ -21,7 +21,7 @@
 title: Volunteer Recruiting Website
 email: dan.dyar@gcccd.edu
 description: "website for recruiting volunteers"
-baseurl: "/Volunteer2" # the subpath of your site, e.g. /blog
+baseurl: /Volunteer2 # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nope
 github_username:  parameterz

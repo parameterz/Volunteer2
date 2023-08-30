@@ -1,10 +1,18 @@
 ---
 layout: page
-title: Sign Up!
+title: Sign Up
 permalink: /signup/
 ---
-  Hello World!
-  
+## Hello! 
+Thank you for your interest in volunteering for the Grossmont College CVT Echo program!
+We are recruiting 7 models for our next event.
+
+(event details go here...)
+
+<div id="count">
+    <p>So far, we have signed up <span id="volunteerCount">(loading...)</span> volunteers!</p>
+</div>
+
 <form id="volunteerForm" class="recruitForm">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
@@ -13,9 +21,7 @@ permalink: /signup/
     <button type="submit">Sign Up</button>
 </form>
 <div id="message"></div>
-<div id="count">
-    <p>Number of volunteers signed up: <span id="volunteerCount">Loading...</span></p>
-</div>
+
 <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 <script>
     const volunteerCountElement = $('#volunteerCount');
